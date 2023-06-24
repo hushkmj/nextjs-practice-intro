@@ -18,6 +18,9 @@ export default function Home({ results }) {
                     padding: 20px;
                     gap: 20px;
                 }
+                .movie {
+                    cursor: pointer;
+                }
                 .movie img {
                     max-width: 100%;
                     border-radius: 12px;
@@ -25,7 +28,7 @@ export default function Home({ results }) {
                     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
                 }
                 .movie:hover img {
-                    
+                    transform: scale(1.05) translateY(-10px);
                 }
                 .movie h4 {
                     font-size: 18px;
